@@ -89,7 +89,7 @@ END:VCARD`;
 
         <div className="brand">
 
-          <h1>V Plan</h1>
+          <h1>V PLAN</h1>
 
           <p>Interiors &amp; Contracting</p>
 
