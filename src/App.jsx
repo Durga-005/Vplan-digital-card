@@ -20,7 +20,7 @@ function App() {
   const email = "connect@vplaninterior.com";
 
   const instagram =
-    "https://www.instagram.com/vplan_interior";
+    "https://www.instagram.com/vplan_interiors";
 
   const website =
     "https://vplan-web.netlify.app";
