@@ -938,42 +938,34 @@ a {
 @media (max-width: 480px) {
 
   .digital-card {
-    padding: 12px;
-
-    justify-content: center;
-
-    background-position:
-      center center;
+    padding: 18px 12px 12px;
+    justify-content: flex-start;
+    background-position: center center;
   }
 
+  /* LOGO AT TOP */
   .logo-circle {
     width: 132px;
     height: 132px;
-
+    margin-top: 5px;
     margin-bottom: 7px;
   }
 
   .brand h1 {
     font-size: 33px;
-
     letter-spacing: 2px;
-
     line-height: 1;
-
     margin-bottom: 5px;
   }
 
   .brand p {
     font-size: 10px;
-
     letter-spacing: 1.2px;
-
     line-height: 1.3;
   }
 
   .social-icons {
     gap: 19px;
-
     margin-top: 16px;
     margin-bottom: 16px;
   }
@@ -981,7 +973,6 @@ a {
   .social-icons a {
     width: 34px;
     height: 34px;
-
     font-size: 22px;
   }
 
@@ -995,119 +986,86 @@ a {
   .save-button {
     width: 100%;
     height: 48px;
-
     border-radius: 12px;
-
     font-size: 14px;
     letter-spacing: 0.3px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
-
     overflow: hidden;
   }
 
-  /* Center the text properly */
   .button-text {
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     text-align: center;
-
     line-height: 1.1;
-
     white-space: nowrap;
-
     padding: 0 48px 0 70px;
-
     position: relative;
     z-index: 3;
   }
 
-  /* Icon */
   .left-icon {
     position: absolute;
-
     left: 17px;
     top: 50%;
-
     transform: translateY(-50%);
-
     width: 22px;
     height: 22px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-size: 17px;
-
     z-index: 5;
   }
 
-  /* Divider */
   .divider {
     position: absolute;
-
     left: 52px;
     top: 50%;
-
     transform: translateY(-50%);
-
     width: 1px;
     height: 23px;
-
     z-index: 5;
   }
 
   .bottom-line {
     width: 45%;
-
     margin-top: 13px;
   }
 }
 
-
-/* =====================================
-   VERY SMALL PHONES
-===================================== */
-
 @media (max-width: 360px) {
 
   .digital-card {
-    padding: 9px;
+    padding: 14px 9px 9px;
+    justify-content: flex-start;
   }
 
   .logo-circle {
     width: 112px;
     height: 112px;
-
+    margin-top: 4px;
     margin-bottom: 6px;
   }
 
   .brand h1 {
     font-size: 28px;
-
     letter-spacing: 1.5px;
-
     margin-bottom: 4px;
   }
 
   .brand p {
     font-size: 8.5px;
-
     letter-spacing: 0.9px;
   }
 
   .social-icons {
     gap: 16px;
-
     margin-top: 12px;
     margin-bottom: 12px;
   }
@@ -1115,7 +1073,6 @@ a {
   .social-icons a {
     width: 31px;
     height: 31px;
-
     font-size: 20px;
   }
 
@@ -1149,8 +1106,6 @@ a {
     margin-top: 10px;
   }
 }
-
-
 /* =====================================
    ACCESSIBILITY
 ===================================== */
