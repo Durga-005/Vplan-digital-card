@@ -26,7 +26,7 @@ function App() {
     "https://vplan-web.netlify.app";
 
   const location =
-    "https://www.google.com/maps/search/?api=1&query=Your+Location";
+    "https://www.google.com/maps/search/?api=1&query=CJPW+VJ9 Secunderabad, Telangana";
 
 
   // ================================
