@@ -15,15 +15,15 @@ function App() {
   // V PLAN DETAILS
   // ================================
 
-  const phone = "+91XXXXXXXXXX";
+  const phone = "+9186391-69498";
 
   const email = "connect@vplaninterior.com";
 
   const instagram =
-    "https://www.instagram.com/yourinstagram";
+    "https://www.instagram.com/vplan_interior";
 
   const website =
-    "https://yourwebsite.com";
+    "https://vplan-web.netlify.app";
 
   const location =
     "https://www.google.com/maps/search/?api=1&query=Your+Location";
